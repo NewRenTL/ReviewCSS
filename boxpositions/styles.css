@@ -1,0 +1,37 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.box
+{
+    display:block;
+    width: 250px;
+    height: 250px;
+    background-color: lightblue;
+    border: 10px solid red;
+    margin: 15px 15px 15px 15px;
+    padding: 20px;
+    padding-bottom: 50px;
+    float: left;
+}
+
+.box p{
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 235px;
+}
+
+body
+{
+    padding: 40px;
+}
+
+.clearbox
+{
+    float: none;
+    clear: both;
+}
