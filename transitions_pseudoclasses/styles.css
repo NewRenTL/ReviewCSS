@@ -1,0 +1,70 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto';
+}
+
+ul li
+{
+    font-size: 20px;
+}
+
+ul li:first-child
+{
+    color: purple;
+    font-weight: bold;
+}
+
+ul li:nth-child(2)
+{
+    color: yellow;
+    font-weight: bold;
+}
+
+ul li:last-child
+{
+    color: gray;
+    font-weight: bold;
+}
+
+#my-link
+{
+    font-size: 30px;
+    color:salmon
+}
+
+#mi-link:link
+{
+    color: red;
+}
+
+#my-link:visited
+{
+    color: orange;
+}
+
+
+#my-link:hover
+{
+    color: blue;
+}
+
+#my-link:active
+{
+    color: green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+input[type="text"]
+{
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+
+input[type="text"]:focus
+{
+    border: 4px dashed red;
+}
